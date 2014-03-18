@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: helvetica, arial, sans-serif;
+}
+#contenedor-de-pagina {
+    width: 100%;
+    
+   
+}
+
+.letras-titulo-cabecera{
+    margin-left: 200px;
+    margin-top: 50px;
+    position: fixed;
+
+}
+#imagen-cabecera {
+    width: 115px;
+    height: 74px;
+    position: absolute;
+    z-index: 1;
+    margin: 22px 0 0 20px;
+    background-image: url(img/coliseoCabecera.jpg);
+}
+
+.separador-cabecera{
+    clear:both;
+    position:relative;
+    float:left;
+    padding-top: 100px;
+}
+
+.home{
+    with:100%;
+    clear:both;
+    background:yellow;
+}
+
+.main{
+ clear:both;   
+}
+.main-menus {
+    background: red;
+    float: left;
+    width: 30%;
+}
+
+.main-contenido {
+    background:cyan;
+    float: left;
+    width:70%;
+
+}
+.pie-pagina{
+ clear:both;
+    background:rgb(211,211,211);
+}
